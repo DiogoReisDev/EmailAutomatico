@@ -10,11 +10,13 @@ email.Subject = 'Testando código'#Assunto
 email.HTMLBody = '''
 <p>Olá Victória, estou testando meu código!</p>
 
-<p>De acordo com o python, o envio de email soclicitado funcionou!</p>
+<p>De acordo com o python, o envio de email solicitado funcionou!</p>
 
 <p>Atenciosamente,</p>
 <p>Diogo Santana</p>
 '''
+anexo = 'C://Users/Diogo/Desktop/G1 DIOGO.png/'
+email.Attachments.add(anexo)
 
 email.Send()
 print('Email enviado!')
