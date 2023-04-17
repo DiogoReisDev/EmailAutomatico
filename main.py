@@ -15,8 +15,9 @@ email.HTMLBody = '''
 <p>Atenciosamente,</p>
 <p>Diogo Santana</p>
 '''
-anexo = 'C://Users/Diogo/Desktop/G1 DIOGO.png/'
-email.Attachments.add(anexo)
+anexo = "C:\\Users\\diogo\\Desktop\\curriculo 2022\\CV_DiogoReis_2023_pt-Br.pdf"
+email.Attachments.Add(anexo)
+
 
 email.Send()
 print('Email enviado!')

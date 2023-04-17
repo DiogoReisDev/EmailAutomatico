@@ -21,6 +21,6 @@ e informar os outros e-mail's que deseja enviar.
 ------------------------
 Basta fornecer a informação do diretório no qual o anexo desejado está alocado, por exemplo:
 ```
-C://Users/Seusuario/Downloads/nomedoarquivo.suaextenção
+'C:\\Users\\Seusuario\\Downloads\\nomedoarquivo.suaextenção'
 ```
 --------------------------------------------------------------------------------------------
